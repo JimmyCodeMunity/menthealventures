@@ -24,7 +24,7 @@ const Hero = () => {
                             }}
                             class="max-w-lg mx-auto text-center lg:mx-0 lg:max-w-md lg:text-left">
                             <p class="text-base font-bold text-neutral-300">Use “FIT40” coupon to get 40% flat discount</p>
-                            <h1 class="mt-3 text-4xl font-bold text-white sm:mt-8 sm:text-5xl xl:text-7xl">Your mental health is work taking care of.</h1>
+                            <h1 class="mt-3 text-4xl font-bold text-white sm:mt-8 sm:text-5xl xl:text-7xl">Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-gray-900 to-amber-300">Mental</span> health is work taking care of.</h1>
 
                             <div class="mt-8 sm:mt-12">
                                 <a
@@ -76,7 +76,7 @@ const Hero = () => {
                             delay: 0.5,
                             ease: [0, 0.71, 0.2, 1.01],
                         }}
-                        className="rounded-t-full overflow-hidden">
+                        className="md:absolute bottom-0 rounded-t-full overflow-hidden">
                         <img src="../images/medi2.jpg" className="rounded-t-5xl" alt="" />
                     </motion.div>
                 </div>
