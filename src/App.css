@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#hero{
+    background-image: url('../public/images/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+  }
+  .cover{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0,0.8);
+  }
