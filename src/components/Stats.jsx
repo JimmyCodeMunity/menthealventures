@@ -1,4 +1,5 @@
 import React from 'react'
+import * as motion from "motion/react-client"
 
 const Stats = () => {
     const stats = [
@@ -23,9 +24,17 @@ const Stats = () => {
     return (
         <section className="py-14 bg-white">
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 gap-x-12 items-start justify-between lg:flex md:px-8">
-                <div className="sm:hidden lg:block lg:max-w-xl">
+                <motion.div
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                    duration: 2,
+                    delay: 0.5,
+                    ease: [0, 0.71, 0.2, 1.01],
+                }}
+                className="sm:hidden lg:block lg:max-w-xl">
                     <img src="../images/thrapy1.jpg" className="rounded-lg" alt="" />
-                </div>
+                </motion.div>
                 <div className="mt-6 gap-12 sm:mt-0 md:flex lg:block">
                     <div className="max-w-2xl">
                         <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
