@@ -9,6 +9,7 @@ import Subscribe from '../components/Subscribe'
 import Stats from '../components/Stats'
 import Services from '../components/Services'
 import ContactUs from '../components/ContactUs'
+import Team from '../components/Team'
 
 const HomePage = () => {
     return (
@@ -22,8 +23,10 @@ const HomePage = () => {
                     {/* <Stats /> */}
                     
                     <Testimonials />
-                    <Faq />
+                    
                     <Stats/>
+                    <Faq />
+                    <Team/>
                     <GetApp />
                     <Subscribe />
                     <ContactUs/>

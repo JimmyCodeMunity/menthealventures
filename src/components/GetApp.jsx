@@ -36,7 +36,7 @@ const GetApp = () => {
                 },
             });
         } else {
-            controls.start({ opacity: 0, scale: 0.5 });
+            controls.stop({ opacity: 0, scale: 0.5 });
         }
     }, [isInView, controls]);
     return (
@@ -48,7 +48,7 @@ const GetApp = () => {
                     animate={controls}
                     class="xl:p-24 gap-32 p-12 rounded-2xl bg-gradient-to-r from-white via-gray-900 to-amber-300 flex  justify-between flex-col-reverse lg:flex-row">
                         <div class="w-full lg:w-2/6 relative">
-                            <img src="https://pagedone.io/asset/uploads/1696241449.png" alt="CTA tailwind section" class="xl:absolute xl:bottom-0 rounded-t-3xl -mb-12 mx-auto lg:-mb-12 xl:-mb-24 lg:mx-0 object-cover" />
+                            <img src="../images/iphone.png" alt="CTA tailwind section" class="xl:absolute xl:bottom-0 rounded-t-3xl -mb-12 mx-auto lg:-mb-12 xl:-mb-24 lg:mx-0 object-cover h-[400px]" />
                         </div>
                         <div class="w-full lg:w-2/3">
                             <h2 class="font-manrope text-5xl text-white font-semibold mb-7 text-center lg:text-left">Get ready to join Mentheal Ventures </h2>
