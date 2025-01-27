@@ -17,8 +17,7 @@ const Subscribe = () => {
                             Subscribe to our newsletter
                         </h2>
                         <p class="mb-6 text-base text-indigo-200 md:text-lg">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                            rem aperiam, eaque ipsa quae. explicabo. Sed ut perspiciatis unde omnis.
+                        "Stay connected with Mentheal! Subscribe to our newsletter for expert tips, inspiring stories, and updates on mental health awareness. Be the first to know about our latest resources, events, and tools to support your mental well-being."
                         </p>
                         <form class="flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
                             <input

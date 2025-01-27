@@ -47,15 +47,15 @@ const Stats = () => {
     },
     {
       data: "10K+",
-      title: "Downloads",
+      title: "App Downloads",
     },
     {
       data: "40+",
       title: "Countries",
     },
     {
-      data: "30M+",
-      title: "Total revenue",
+      data: "1M+",
+      title: "People Helped",
     },
   ];
 
@@ -79,8 +79,7 @@ const Stats = () => {
               We do our best to make customers always happy
             </h3>
             <p className="mt-3 max-w-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              venenatis sollicitudin quam ut tincidunt.
+            "At Mentheal, we take pride in empowering our community through mental health awareness and personalized guidance.."
             </p>
           </div>
           <div className="flex-none mt-6 md:mt-0 lg:mt-6">

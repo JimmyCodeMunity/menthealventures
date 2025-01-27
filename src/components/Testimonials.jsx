@@ -55,14 +55,14 @@ const Testimonials = () => {
                                             </div>
 
                                             <blockquote className="flex-1 mt-8">
-                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.”</p>
+                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">"Mentheal has been a game-changer for me. Their resources are insightful, approachable, and have truly helped me prioritize my mental health."</p>
                                             </blockquote>
                                         </div>
 
                                         <div className="flex items-center mt-8">
-                                            <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="https://cdn.rareblocks.xyz/collection/clarity/images/testimonial/4/avatar-male-1.png" alt="" />
+                                            <img className="flex-shrink-0 object-cover rounded-full w-11 h-11" src="../images/jimmy.jpg" alt="" />
                                             <div className="ml-4">
-                                                <p className="text-base font-bold text-gray-900 font-pj">Leslie Alexander</p>
+                                                <p className="text-base font-bold text-gray-900 font-pj">Jimmy Wafula</p>
                                                 <p className="mt-0.5 text-sm font-pj text-gray-600">Freelance React Developer</p>
                                             </div>
                                         </div>
@@ -101,7 +101,7 @@ const Testimonials = () => {
                                             </div>
 
                                             <blockquote className="flex-1 mt-8">
-                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”</p>
+                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">"I love how Mentheal makes mental health awareness accessible to everyone. Their dedication to breaking the stigma is inspiring!"</p>
                                             </blockquote>
                                         </div>
 
@@ -147,7 +147,7 @@ const Testimonials = () => {
                                             </div>
 
                                             <blockquote className="flex-1 mt-8">
-                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">“I cannot believe that I have got a brand new landing page after getting Omega. It was super easy to edit and publish.”</p>
+                                                <p className="text-lg leading-relaxed text-gray-900 font-pj">"Mentheal’s support and tools are empowering. They remind us all that it’s okay to seek help and take care of our mental well-being."</p>
                                             </blockquote>
                                         </div>
 

@@ -1,6 +1,12 @@
 import React from 'react'
 
 const Footer = () => {
+
+
+    // get todays year
+    const currentYear = new Date().getFullYear();
+
+    // Render the footer
     return (
         <footer class="w-full bg-white">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -53,7 +59,7 @@ const Footer = () => {
                 </div>
                 <div class="py-7 border-t border-gray-200">
                     <div class="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-                        <span class="text-sm text-gray-500 ">©<a href="https://pagedone.io/">pagedone</a> 2024, All rights reserved.</span>
+                        <span class="text-sm text-gray-500 ">©<a href="/">menthealventures</a> {currentYear}, All rights reserved.</span>
                         <div class="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                             <a href="javascript:;" class="w-9 h-9 rounded-full bg-gray-700 flex justify-center items-center hover:bg-indigo-600">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

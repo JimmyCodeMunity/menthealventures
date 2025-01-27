@@ -52,7 +52,7 @@ const GetApp = () => {
                         </div>
                         <div class="w-full lg:w-2/3">
                             <h2 class="font-manrope text-5xl text-white font-semibold mb-7 text-center lg:text-left">Get ready to join Mentheal Ventures </h2>
-                            <p class="text-lg text-white leading-8 mb-12 text-center lg:text-left">Download our app now from app stores & play store and experience the ease of financing on your finger tips.</p>
+                            <p class="text-lg text-white leading-8 mb-12 text-center lg:text-left">Download our app now from app stores & play store and experience the best therapy at your finger tips.</p>
                             <div class="flex items-center flex-col gap-7 md:flex-row lg:justify-start justify-center">
                                 <a href="javascript:;" class="cursor-pointer ">
                                     <svg width="134" height="45" viewBox="0 0 134 45" fill="none" xmlns="http://www.w3.org/2000/svg">

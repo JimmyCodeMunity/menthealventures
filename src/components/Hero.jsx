@@ -76,8 +76,8 @@ const Hero = () => {
                             delay: 0.5,
                             ease: [0, 0.71, 0.2, 1.01],
                         }}
-                        className="md:absolute bottom-0 rounded-t-full overflow-hidden">
-                        <img src="../images/medi2.jpg" className="rounded-t-5xl" alt="" />
+                        className="rounded-t-full overflow-hidden">
+                        <img src="../images/medi2.jpg" className="rounded-t-5xl md:h-8/12 h-full" alt="" />
                     </motion.div>
                 </div>
             </section>
