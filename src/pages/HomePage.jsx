@@ -10,16 +10,18 @@ import Stats from '../components/Stats'
 import Services from '../components/Services'
 import ContactUs from '../components/ContactUs'
 import Team from '../components/Team'
+import Programs from '../components/Programs'
 
 const HomePage = () => {
     return (
         <div>
-            <div id="hero">
+            <div id="hero" className=''>
                 <div className="cover">
                     <Navbar />
 
                     <Hero />
                     <Services />
+                    <Programs/>
                     {/* <Stats /> */}
                     
                     <Testimonials />
