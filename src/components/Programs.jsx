@@ -47,7 +47,7 @@ const Programs = () => {
                             <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                                 <img loading="lazy" width="647" height="486"
                                     class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                                    src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137" />
+                                    src="https://img.freepik.com/free-photo/group-afro-americans-working-together_1303-8971.jpg?ga=GA1.1.1653364327.1738943835&semt=ais_incoming" />
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ const Programs = () => {
                             <div class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                                 <img alt="Inbox user interface" loading="lazy" width="647" height="486"
                                     class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                                    src="https://images.unsplash.com/photo-1599134842279-fe807d23316e" />
+                                    src="https://images.pexels.com/photos/3280130/pexels-photo-3280130.jpeg?auto=compress&cs=tinysrgb&w=600" />
                             </div>
                         </div>
                     </div>
