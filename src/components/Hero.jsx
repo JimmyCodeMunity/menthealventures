@@ -4,6 +4,7 @@ import * as motion from "motion/react-client"
 const Hero = () => {
     return (
         <div className="w-full h-full bg-transparent">
+            
             <section className="bg-transparent w-full md:grid flex flex-col space-y-4 grid-cols-2 max-w-7xl mx-auto">
 
 

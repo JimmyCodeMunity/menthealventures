@@ -13,6 +13,7 @@ const Navbar = () => {
     }
     return (
         <div className="bg-transparent w-full sm:py-10 py-6 sm:px-16 px-6 max-w-7xl mx-auto">
+            
             {/* <div className="bg-black flex w-full p-5"></div> */}
             <div className="w-full flex flex-row items-center justify-between">
                 <div>

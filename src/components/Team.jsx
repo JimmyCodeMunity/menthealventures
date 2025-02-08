@@ -33,6 +33,9 @@ const Team = () => {
                     <span class="text-gray-500 text-center block transition-all duration-500 group-hover:text-gray-900">
                       {member.role}
                     </span>
+                    <span class="text-gray-500 text-md text-center block transition-all duration-500 group-hover:text-gray-900">
+                      {member.other}
+                    </span>
                   </div>
                 )
               })

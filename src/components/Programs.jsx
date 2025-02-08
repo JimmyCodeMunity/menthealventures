@@ -32,7 +32,7 @@ const Programs = () => {
                                     </h2>
                                     <p class="mt-4 text-lg text-neutral-500">
                                         Mentheal works with companies to provide professional counselling services
-                                        for eployees through this program.
+                                        for employees through this program.
                                     </p>
                                     <div class="mt-6">
                                         <a class="inline-flex rounded-lg bg-gradient-to-r from-white via-gray-900 to-amber-300 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm"

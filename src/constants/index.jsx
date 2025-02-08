@@ -28,23 +28,27 @@ export const teammembers = [
         name:"Emily Akoth",
         role:"CEO & Founder",
         image:"../images/members/emily.jpeg",
+        other:""
     },
     {
         id:2,
         name:"Paul Omondi",
         role:"Relationship Manager",
         image:"../images/members/paul.jpeg",
+        other:"Lifecoach & Mental health trainer"
     },
     {
         id:3,
-        name:"Ediwin Wamalu",
+        name:"Edwin Wamalu",
         role:"Accountant",
         image:"../images/members/edwin.jpeg",
+        other:"Administrator"
     },
     {
         id:4,
         name:"Pauline Auma",
         role:"Secretary",
         image:"../images/members/pauline.jpeg",
+        other:"Counselling Psychologist"
     }
 ]
