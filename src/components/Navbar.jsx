@@ -13,7 +13,7 @@ const Navbar = (navcolor) => {
         setIsOpen(!isOpen)
     }
     return (
-        <div className={`${navcolor ? navcolor.navcolor : "bg-black"} w-full sm:py-10 py-6 sm:px-16 px-6 max-w-7xl mx-auto`}>
+        <div className={`${navcolor ? navcolor.navcolor : "bg-black"} w-full sm:py-6 py-6 sm:px-16 px-6 max-w-7xl mx-auto`}>
 
             {/* <div className="bg-black flex w-full p-5"></div> */}
             <div className="w-full flex flex-row items-center justify-between">
@@ -51,7 +51,7 @@ const Navbar = (navcolor) => {
 
                 {
                     isOpen &&
-                    <div className="md:hidden bg-white absolute top-14 w-[200px] right-10 z-10 rounded-sm p-3">
+                    <div className="md:hidden bg-white absolute top-24 w-[200px] right-14 z-10 rounded-sm p-3">
                         <ul className="flex flex-col space-y-2 items-start">
                             {
                                 navlinks.map((navitem) => {

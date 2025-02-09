@@ -53,7 +53,7 @@ const Hero = () => {
                         "
                                     role="button"
                                 >
-                                    Get Started
+                                    Join as Therapist
                                 </a>
                             </div>
                         </motion.div>

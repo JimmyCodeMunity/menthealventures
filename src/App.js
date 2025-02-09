@@ -8,6 +8,7 @@ import MembershipPage from './pages/MembershipPage';
 import BlogPage from './pages/BlogPage';
 import ContactusPage from './pages/ContactusPage';
 import TeamsPage from './pages/TeamsPage';
+import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/blog' element={<BlogPage/>} />
         <Route path='/contactus' element={<ContactusPage/>} />
         <Route path='/team' element={<TeamsPage/>} />
+        <Route path='/login' element={<LoginPage/>} />
       </Routes>
     </div>
   );

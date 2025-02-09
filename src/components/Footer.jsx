@@ -1,4 +1,6 @@
 import React from 'react'
+import { navlinks } from '../constants';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 
@@ -22,12 +24,17 @@ const Footer = () => {
                         </a>
                     </div>
                     <div class="lg:mx-auto text-left ">
-                        <h4 class="text-lg text-gray-900 font-medium mb-7">Pagedone</h4>
+                        <h4 class="text-lg text-gray-900 font-medium mb-7">LINKS</h4>
                         <ul class="text-sm  transition-all duration-500">
-                            <li class="mb-6"><a href="javascript:;" class="text-gray-600 hover:text-gray-900">Home</a></li>
-                            <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">About</a></li>
-                            <li class="mb-6"><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Pricing</a></li>
-                            <li><a href="javascript:;" class=" text-gray-600 hover:text-gray-900">Features</a></li>
+                            {
+                                navlinks.map((link) => {
+                                    return (
+                                        <li class="mb-6"><Link to={link.path} class="text-gray-600 hover:text-gray-900">{link.name}</Link></li>
+                                    )
+                                })
+                            }
+
+                            <li><a href="/login" class=" text-gray-600 hover:text-gray-900">Login</a></li>
                         </ul>
                     </div>
                     <div class="lg:mx-auto text-left ">
