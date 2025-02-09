@@ -5,19 +5,32 @@ export const navlinks = [
         path:"/",
     },
     {
-        id:1,
+        id:2,
         name:"About Us",
-        path:"/",
+        path:"/aboutus",
     },
     {
-        id:1,
+        id:3,
+        name:"Services",
+        path:"/services",
+    },
+    {
+        id:4,
+        name:"Team",
+        path:"/team",
+    },
+    {
+        id:5,
+        name:"Membership",
+        path:"/membership",
+    },{
+        id:6,
+        name:"Blog",
+        path:"/blog",
+    },{
+        id:7,
         name:"Contact Us",
-        path:"/",
-    },
-    {
-        id:1,
-        name:"Login",
-        path:"/",
+        path:"/contactus",
     },
 ]
 

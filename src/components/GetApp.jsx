@@ -43,7 +43,7 @@ const GetApp = () => {
         <div>
             <section class="py-20 bg-transparent">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <motion.div
+                    <div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={controls}
                     class="xl:p-24 gap-32 p-12 rounded-2xl bg-gradient-to-r from-white via-gray-900 to-amber-300 flex  justify-between flex-col-reverse lg:flex-row">
@@ -125,7 +125,7 @@ const GetApp = () => {
                                 </a>
                             </div>
                         </div>
-                    </motion.div>
+                    </div>
                 </div>
             </section>
 

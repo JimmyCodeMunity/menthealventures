@@ -11,31 +11,43 @@ import Services from '../components/Services'
 import ContactUs from '../components/ContactUs'
 import Team from '../components/Team'
 import Programs from '../components/Programs'
+import Banner from '../components/Banner'
+import Partners from '../components/Partners'
 
 const HomePage = () => {
+    const navcolor = "bg-transparent"
     return (
         <div>
             <div id="hero" className=''>
                 <div className="cover">
-                    <Navbar />
+                    <Banner />
+                    <Navbar navcolor={navcolor} />
 
                     <Hero />
                     <Services />
-                    <Programs/>
+                    <Partners/>
                     {/* <Stats /> */}
-                    
+
                     <Testimonials />
+
                     
-                    <Stats/>
+
+                    <Stats />
                     <Faq />
-                    <Team/>
                     <GetApp />
                     <Subscribe />
-                    <ContactUs/>
+                    <ContactUs />
                     <Footer />
+
+                </div>
+                <div className="md:hidden absolute bottom-10 right-5">
+                <a target='_blank' href="https://wa.me/+254705279373?text=I'm%20interested%20in%20your%20car%20for%20sale" className="text-white flex items-center flex-row">
+                            <img src="../images/whatsapp.png" alt="" className="h-14 w-14" />
+                            </a>
                 </div>
 
             </div>
+
         </div>
     )
 }

@@ -5,14 +5,15 @@ import * as Icon from 'react-feather'
 
 
 
-const Navbar = () => {
+const Navbar = (navcolor) => {
+    console.log("navcolor",navcolor)
     const [isOpen, setIsOpen] = useState(false)
 
     const handleMenu = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <div className="bg-transparent w-full sm:py-10 py-6 sm:px-16 px-6 max-w-7xl mx-auto">
+        <div className={`${navcolor ? navcolor.navcolor:"bg-black"} w-full sm:py-10 py-6 sm:px-16 px-6 max-w-7xl mx-auto`}>
             
             {/* <div className="bg-black flex w-full p-5"></div> */}
             <div className="w-full flex flex-row items-center justify-between">
