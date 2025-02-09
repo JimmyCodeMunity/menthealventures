@@ -45,9 +45,10 @@ const Hero = () => {
                             duration-200
                             bg-white
                             border border-transparent
-                            rounded-md
+                            rounded-full
                             focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
-                            hover:bg-gray-600
+                            hover:bg-[#724B62]
+                            hover:text-white
                             focus:ring-offset-[#FFE942]
                         "
                                     role="button"

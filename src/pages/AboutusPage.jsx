@@ -1,6 +1,8 @@
 import React from 'react'
 import Banner from '../components/Banner'
 import Navbar from '../components/Navbar'
+import About from '../components/About'
+import Footer from '../components/Footer'
 
 
 const AboutusPage = () => {
@@ -12,6 +14,8 @@ const AboutusPage = () => {
                 <Banner />
                 <Navbar navcolor={navcolor} />
             </div>
+            <About/>
+            <Footer/>
 
         </div>
     )
