@@ -50,8 +50,8 @@ const Stats = () => {
       title: "App Downloads",
     },
     {
-      data: "40+",
-      title: "Countries",
+      data: "1",
+      title: "Country",
     },
     {
       data: "1M+",

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const faqs = [
     {
@@ -25,13 +24,40 @@ const faqs = [
     {
         question: "Are online mental health services effective?",
         answer: "Yes! Many people find online therapy convenient, affordable, and just as effective as in-person sessions."
+    },
+    {
+        question: "How much do mental health services cost?",
+        answer: "Costs vary depending on the provider, location, and type of service."
+    },
+    {
+        question: "Does insurance cover mental health treatment?",
+        answer: "Some health insurance plans cover therapy, counseling, and psychiatric care. It’s best to check with your provider."
+    },
+    {
+        question: "Are mental health services confidential?",
+        answer: "Yes, professionals are bound by confidentiality laws. However, they may break confidentiality if there is a risk of harm to yourself or others."
+    },
+    {
+        question: "How can I encourage a loved one to seek help?",
+        answer: "Approach them with empathy, offer support, and share available resources without pressure."
+    },
+    {
+        question: "What if I feel ashamed to seek help?",
+        answer: "Mental health is just as important as physical health. Seeking help is a sign of strength, not weakness."
+    },
+    {
+        question: "What should I do in a mental health crisis?",
+        answer: "Call a mental health crisis helpline, contact Mentheal personnel through the App or contacts provided, visit a hospital or emergency room if needed, or reach out to a trusted person for immediate support."
+    },
+    {
+        question: "How do I know if I need urgent mental health care?",
+        answer: "If you are experiencing suicidal thoughts, severe distress, or uncontrollable emotions, seek help immediately from a crisis hotline or emergency service."
     }
 ];
 
-const Faq = () => {
+const AllFaqs = () => {
     return (
-        
-        <div className="bg-white md:grid gap-4 grid-cols-2">
+        <div className="bg-white w-full">
             <div className="relative w-full bg-white px-6 pt-10 pb-8 mt-8 sm:mx-auto sm:max-w-2xl sm:rounded-lg sm:px-10">
                 <div className="mx-auto px-5">
                     <div className="flex flex-col items-center">
@@ -55,24 +81,11 @@ const Faq = () => {
                             </div>
                         ))}
                     </div>
-                    <Link to="/faq" className="cursor-pointer">
-                        <button class="py-2 px-5 border border-solid border-gray-300 rounded-full gap-2 text-xs text-white font-semibold flex items-center bg-black justify-between transition-all duration-500 hover:bg-[#724B62]">
-                            View More
-                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 9L3.58579 6.41421C4.25245 5.74755 4.58579 5.41421 4.58579 5C4.58579 4.58579 4.25245 4.25245 3.58579 3.58579L1 1" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
-
-                        </button>
-                    </Link>
                 </div>
-
-
             </div>
-            <div className="w-full">
-                <img src="../images/faq.jpeg" alt="" className="object-cover md:rounded-tl-3xl md:rounded-bl-full" />
-            </div>
+            
         </div>
     );
 };
 
-export default Faq;
+export default AllFaqs;

@@ -9,6 +9,7 @@ import BlogPage from './pages/BlogPage';
 import ContactusPage from './pages/ContactusPage';
 import TeamsPage from './pages/TeamsPage';
 import LoginPage from './pages/LoginPage';
+import FaqPage from './pages/FaqPage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/contactus' element={<ContactusPage/>} />
         <Route path='/team' element={<TeamsPage/>} />
         <Route path='/login' element={<LoginPage/>} />
+        <Route path='/faq' element={<FaqPage/>} />
       </Routes>
     </div>
   );

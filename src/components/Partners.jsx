@@ -4,7 +4,7 @@ const Partners = () => {
     return (
         <div>
             <section class="bg-white">
-                <div class="py-8 lg:py-16 mx-auto w-full">
+                <div class="py-8 mx-auto w-full">
                     <div class="max-w-3xl mx-auto px-5 mt-28">
                         <div class="flex flex-col justify-center">
 

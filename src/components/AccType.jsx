@@ -7,15 +7,8 @@ const AccType = () => {
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div class="mb-14 text-center">
                         <h2 class="text-4xl text-center font-bold text-gray-900 leading-[3.25rem] mb-6 max-w-max lg:max-w-3xl lg:mx-auto">Choose an account type to use Mentheal Services</h2>
-                        <p class="text-base font-normal text-gray-500 lg:max-w-2xl lg:mx-auto mb-8">Using technology to make finance simpler, smarter and more rewarding. </p>
-                        <div class="flex flex-col justify-center md:flex-row gap-5 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
-                            <a href="javascript:;" class="cursor-pointer bg-indigo-600 py-3 px-6 rounded-full flex items-center justify-center text-sm font-semibold text-white transition-all duration-500 focus:outline-none hover:bg-indigo-700">
-                                Get started
-                            </a>
-                            <a href="javascript:;" class="cursor-pointer bg-indigo-50 py-3 px-6 rounded-full flex items-center justify-center  text-sm font-semibold text-indigo-600 transition-all duration-500 focus:outline-none hover:bg-indigo-100">
-                                Learn more
-                            </a>
-                        </div>
+                        <p class="text-base font-normal text-gray-500 lg:max-w-2xl lg:mx-auto mb-8">Using technology to make mentheal services easily accessible and affordable to all. </p>
+                        
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
                         <div class="relative w-full h-auto md:col-span-2">
@@ -51,7 +44,7 @@ const AccType = () => {
                                     </svg>
                                 </div>
                                 <h3 class="py-5 text-black text-lg font-bold xl:text-xl">Therapist Account</h3>
-                                <p class="text-md font-normal text-black mb-8">Create a Thearpist account today and start offering your services. </p>
+                                <p class="text-md font-normal text-black mb-8">Create a Therapist account today and start offering your services. </p>
                                 <button class="py-2 px-5 border border-solid border-gray-300 rounded-full gap-2 text-xs text-white font-semibold flex items-center bg-black justify-between transition-all duration-500 hover:bg-[#724B62]">
                                     Sign Up
                                     <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">

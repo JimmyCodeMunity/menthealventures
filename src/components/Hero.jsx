@@ -1,5 +1,6 @@
 import React from 'react'
 import * as motion from "motion/react-client"
+import TestCarousel from './TestCarousel'
 
 const Hero = () => {
     return (
@@ -25,7 +26,7 @@ const Hero = () => {
                             }}
                             class="max-w-lg mx-auto text-center lg:mx-0 lg:max-w-md lg:text-left">
                             <p class="text-base font-bold text-neutral-300">Use “CARE#NOW” coupon to get 40% flat discount</p>
-                            <h1 class="mt-3 text-4xl font-bold text-white sm:mt-8 sm:text-5xl xl:text-7xl">Your <span className="text-transparent text-white">Mental</span> health  🧠  is worth taking care of.</h1>
+                            <h1 class="mt-3 text-4xl font-bold text-white sm:mt-8 sm:text-5xl xl:text-6xl">Everyone Deserves a Better <span className="text-transparent text-white">Mental</span> health  🧠  </h1>
 
                             <div class="mt-8 sm:mt-12">
                                 <a
@@ -78,8 +79,8 @@ const Hero = () => {
                             delay: 0.5,
                             ease: [0, 0.71, 0.2, 1.01],
                         }}
-                        className="rounded-t-full overflow-hidden">
-                        <img src="../images/medi2.jpg" className="rounded-t-5xl md:h-8/12 h-full" alt="" />
+                        className="w-full h-full flex flex-col justify-center items-center">
+                        <TestCarousel/>
                     </motion.div>
                 </div>
             </section>

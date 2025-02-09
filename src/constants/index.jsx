@@ -63,5 +63,43 @@ export const teammembers = [
         role:"Secretary",
         image:"../images/members/pauline.jpeg",
         other:"Counselling Psychologist"
-    }
+    },
+    
+]
+
+export const midlevel = [
+    {
+        id:1,
+        name:"Miriam Musa",
+        role:"Mentheal Advisor & communist",
+        image:"../images/members/miriam.jpeg",
+        other:""
+    },
+    {
+        id:2,
+        name:"Antipus Akala",
+        role:"Financial * Business advisor",
+        image:"../images/members/antipus.jpeg",
+        other:"Lifecoach & Mental health trainer"
+    },
+    {
+        id:3,
+        name:"Diana Ayabei",
+        role:"Community Advisor & Fundraising",
+        image:"../images/members/diana.jpeg",
+        other:"Administrator"
+    },
+    
+]
+
+export const chair = [
+    {
+        id:1,
+        name:"Charles Oyier",
+        role:"Mentheal ChairPerson",
+        image:"../images/members/charles.jpeg",
+        other:""
+    },
+    
+    
 ]

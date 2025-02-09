@@ -2,18 +2,20 @@ import React from 'react'
 import Login from '../components/Login'
 import Banner from '../components/Banner'
 import Navbar from '../components/Navbar'
-import TestCarousel from '../components/TestCarousel'
+import AllFaqs from '../components/AllFaqs'
+import Footer from '../components/Footer'
 
-const LoginPage = () => {
+const FaqPage = () => {
     return (
         <div>
             <div className="w-full bg-black">
                 <Banner />
                 <Navbar />
             </div>
-            <TestCarousel />
+            <AllFaqs />
+            <Footer/>
         </div>
     )
 }
 
-export default LoginPage
+export default FaqPage

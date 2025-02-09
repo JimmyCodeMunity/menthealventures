@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
     return (
         <div>
-            <section class="py-24 relative bg-white">
+            <section class="py-10 relative bg-white">
                 <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
                     <div class="w-full flex-col justify-start items-center lg:gap-11 gap-8 inline-flex">
                         <div class="w-full flex-col justify-start items-center gap-2.5 flex">
@@ -36,13 +36,13 @@ const Services = () => {
                                     </a>
                                     <h4 class="text-center text-gray-900 text-lg font-semibold leading-8">Session Scheduling</h4>
                                     <p class="text-center text-gray-500 text-sm font-normal leading-snug">You can book a session you need to attend in the future at an ealier date and get notified when its time.</p>
-                                    
+
                                 </div>
                             </div>
                             <div class="w-full px-6 py-8 rounded-2xl border border-gray-200 hover:border-indigo-600 transition-all duration-700 ease-in-out justify-center items-center gap-2.5 flex">
                                 <div class="flex-col justify-start items-center gap-3.5 inline-flex">
                                     <a href="" class="w-10 h-10 flex items-center justify-center">
-                                       <img src="../images/secure.png" alt="" className="h-12 w-12" />
+                                        <img src="../images/secure.png" alt="" className="h-12 w-12" />
                                     </a>
                                     <h4 class="text-center text-gray-900 text-lg font-semibold leading-8">Privacy</h4>
                                     <p class="text-center text-gray-500 text-sm font-normal leading-snug">Your data and sessions are all private and secure.No session is recorded by either parties.</p>
