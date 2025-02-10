@@ -16,7 +16,7 @@ const Team = () => {
           </div>
           <div className="space-y-5">
             <div className="w-full text-center md:py-8 py-5">
-              <p className="text-3xl text-amber-500">Board of Advisors</p>
+              <p className="text-3xl text-amber-500">Advisory Board</p>
             </div>
             <div class="flex flex-wrap justify-center gap-y-14 max-w-3xl mx-auto lg:max-w-full ">
 
