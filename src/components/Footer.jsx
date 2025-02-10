@@ -18,7 +18,7 @@ const Footer = () => {
                             <img src="../images/logo.png" className='h-16 w-16' alt="" />
                             <h1 className="text-xl font-semibold">Mentheal Ventures</h1>
                         </a>
-                        <p class="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">Trusted in more than 100 countries & 5 million customers. Have any query ?</p>
+                        <p class="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">Trusted with more than 5 million people. Have any query ?</p>
                         <a href="javascript:;" class="py-2.5 px-5 h-9 block w-fit bg-gradient-to-r from-blue-500 via-gray-900 to-amber-300 rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-indigo-700 lg:mx-0">
                             Contact us
                         </a>
