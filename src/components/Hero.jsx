@@ -25,7 +25,7 @@ const Hero = () => {
                                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
                             }}
                             class="max-w-lg mx-auto text-center lg:mx-0 lg:max-w-md lg:text-left">
-                            <p class="text-base font-bold text-neutral-300">Use “CARE#NOW” coupon to get 40% flat discount</p>
+                            
                             <h1 class="mt-3 text-4xl font-bold text-white sm:mt-8 sm:text-5xl xl:text-6xl">Everyone Deserves a Better <span className="text-transparent text-white">Mental</span> health  🧠  </h1>
 
                             <div class="mt-8 sm:mt-12">
