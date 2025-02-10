@@ -2,7 +2,7 @@ import React from 'react'
 import Login from '../components/Login'
 import Banner from '../components/Banner'
 import Navbar from '../components/Navbar'
-import TestCarousel from '../components/TestCarousel'
+// import TestCarousel from '../components/TestCarousel'
 
 const LoginPage = () => {
     return (
@@ -11,7 +11,7 @@ const LoginPage = () => {
                 <Banner />
                 <Navbar />
             </div>
-            <TestCarousel />
+            <Login />
         </div>
     )
 }
