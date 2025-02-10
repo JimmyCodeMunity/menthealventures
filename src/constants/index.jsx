@@ -71,7 +71,7 @@ export const midlevel = [
     {
         id:1,
         name:"Miriam Musa",
-        role:"Mentheal Advisor & communication",
+        role:"Mental health Advisor & communication",
         image:"../images/members/miriam.jpeg",
         other:""
     },
