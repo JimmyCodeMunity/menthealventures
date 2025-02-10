@@ -17,7 +17,7 @@ const ContactUs = () => {
                       </svg>
                     </a>
                     <h5 class="text-gray-900 text-xl font-semibold leading-8 mb-3 transition-all duration-500 group-hover:text-white">Call Support</h5>
-                    <p class="text-gray-500 text-sm font-normal leading-5 transition-all duration-500 group-hover:text-white">Raech out to us through the number provided below.</p>
+                    <p class="text-gray-500 text-sm font-normal leading-5 transition-all duration-500 group-hover:text-white">Reach out to us through the number provided below.</p>
                   </div>
                   <div class="rounded-2xl border border-gray-200 bg-white p-7 group transition-all duration-500 hover:bg-amber-300">
                     <a href="javascript:;" class="w-14 h-14 bg-black rounded-full flex items-center justify-center mb-5 transition-all duration-500 group-hover:bg-white cursor-pointer">

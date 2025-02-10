@@ -35,7 +35,7 @@ const Services = () => {
                                         <img src="../images/calender.png" alt="" className="w-12 h-12" />
                                     </a>
                                     <h4 class="text-center text-gray-900 text-lg font-semibold leading-8">Session Scheduling</h4>
-                                    <p class="text-center text-gray-500 text-sm font-normal leading-snug">You can book a session you need to attend in the future at an ealier date and get notified when its time.</p>
+                                    <p class="text-center text-gray-500 text-sm font-normal leading-snug">You can book a session you need to attend in the future at an earlier date and get notified when its time.</p>
 
                                 </div>
                             </div>

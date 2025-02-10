@@ -71,23 +71,23 @@ export const midlevel = [
     {
         id:1,
         name:"Miriam Musa",
-        role:"Mentheal Advisor & communist",
+        role:"Mentheal Advisor & communication",
         image:"../images/members/miriam.jpeg",
         other:""
     },
     {
         id:2,
         name:"Antipus Akala",
-        role:"Financial * Business advisor",
+        role:"Financial & Business advisor",
         image:"../images/members/antipus.jpeg",
-        other:"Lifecoach & Mental health trainer"
+        other:""
     },
     {
         id:3,
         name:"Diana Ayabei",
         role:"Community Advisor & Fundraising",
         image:"../images/members/diana.jpeg",
-        other:"Administrator"
+        other:""
     },
     
 ]
